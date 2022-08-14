@@ -1,0 +1,153 @@
+/*******menu lane*******/
+.ml-layout{
+	display: flex;
+	flex-direction: row;
+}
+
+.ml-layout li{
+	box-sizing: border-box;
+	font-size: 32px;
+	line-height: 48px;
+	font-weight: bold;
+	width: 33.3%;
+	text-align: center;
+	padding-top: 23px;
+	padding-bottom: 24px;
+	border: 1px solid #DCDCDC;
+}
+
+.ml-layout .bb-style{
+	border-bottom: 8px solid #AA0601;
+}
+/****Img wall****/
+.img-wall-layout{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.img-left{
+	width: 50%;
+	background-image: url(../images/product-header-sm-1.png);
+	background-position:center;
+	background-size: cover;
+	min-height: 296px;
+}
+
+.img-right{
+	width: 50%;
+	background-image: url(../images/product-header-sm-2.png);
+	background-position: center;
+	background-size: cover;
+	min-height: 296px;
+}
+
+.title-layout{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/***title***/
+
+.title{
+	padding-top: 80px;
+	font-size: 42px;
+	line-height: 63px;
+}
+
+.sub-title{
+	padding-bottom: 32px;
+	font-size: 32px;
+	line-height: 48px;
+}
+
+/****Card*******/
+.card-group{
+	padding-bottom: 80px;
+}
+
+.card-layout-overall{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.card-layout{
+	width: 25%;
+	padding: 80px 12px 0px 12px;
+	box-sizing: border-box;
+}
+
+.product-sku{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.product-sku :nth-child(1){
+	font-size: 24px;
+	line-height: 36px;
+	color:#000000
+}
+
+.product-sku :nth-child(2){
+	font-size: 24px;
+	line-height: 36px;
+	color:#AA0601
+}
+
+.sq-layout{
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+}
+
+.sq-left{
+	width: 24px;
+	height: 24px;
+	border-radius: 2px;
+	background-color: #5F3E2D;
+}
+
+.sq-right{
+	width: 24px;
+	height: 24px;
+	border-radius: 2px;
+	background-color: #B75929;
+}
+
+/***Nav****/
+.nav{
+	padding-bottom: 79px;
+}
+
+.nav-layout{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.nav-layout li{
+	text-align: center;
+	font-size: 16px;
+	line-height: 29px;
+	padding:11px 0px 11px 0px;
+	border: 1px solid black;
+	font-family: Roboto;
+	width: 4.06%;
+}
+
+.nav-layout :nth-child(3){
+	background-color: #000;
+	color: white;
+}
+
+.nav-layout :nth-child(1){
+	width: 7.84%
+}
+
+.nav-layout :nth-last-child(1){
+	background-color: #F2F2F2;
+	width: 7.84%;
+}
