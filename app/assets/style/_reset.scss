@@ -52,3 +52,11 @@ img{
 	height:auto;
     vertical-align: middle;
 }
+
+a{
+	text-decoration: none;
+}
+
+*, *::before, *::after {
+	box-sizing:border-box;
+   }
